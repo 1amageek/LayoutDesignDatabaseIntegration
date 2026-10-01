@@ -30,15 +30,9 @@ let package = Package(
             named: "DesignDatabase",
             exactVersion: "26.812.1"
         ),
-        releasedDependency(
-            named: "PDKKit",
-            exactVersion: "26.812.0"
-        ),
-        releasedDependency(
-            named: "semiconductor-layout",
-            exactVersion: "26.812.0"
-        ),
-        .package(url: "https://github.com/1amageek/PDKDesignDatabaseIntegration.git", exact: "26.812.0"),
+        .package(url: "https://github.com/1amageek/PDKKit.git", revision: "9b42202a120b2174d0d0e88aa5edbcef53f81405"),
+        .package(url: "https://github.com/1amageek/semiconductor-layout.git", revision: "7ca3dc4ac2fd821a5cabc321597ffd7fe8138b46"),
+        .package(url: "https://github.com/1amageek/PDKDesignDatabaseIntegration.git", revision: "2999c238abf072466f021ba97dc5cc157b128a9d"),
         .package(
             url: "https://github.com/1amageek/database-kit.git",
             exact: "26.0809.4"
