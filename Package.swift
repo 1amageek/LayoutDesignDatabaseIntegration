@@ -28,7 +28,7 @@ let package = Package(
         ),
         .package(url: "https://github.com/1amageek/DesignDatabase.git", revision: "78f1c2e28e804e7c750014827e9f18c88c2272e3"),
         .package(url: "https://github.com/1amageek/PDKKit.git", revision: "7b7435ba28cd7eaf7a3535b9612e08aa4032119a"),
-        .package(url: "https://github.com/1amageek/semiconductor-layout.git", revision: "f762eb318d4d4a527d418eb83eff5d2c1cdd5604"),
+        .package(url: "https://github.com/1amageek/semiconductor-layout.git", revision: "3782d80a8038118ec0e4d18d550391d4e6587da1"),
         .package(url: "https://github.com/1amageek/PDKDesignDatabaseIntegration.git", revision: "68aa8ba4c109f4a16c75a4759cf6d375e1224778"),
         .package(
             url: "https://github.com/1amageek/database-kit.git",
