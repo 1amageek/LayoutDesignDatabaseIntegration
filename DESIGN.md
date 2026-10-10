@@ -39,6 +39,8 @@ PDK input-only database admission does not become producer-output admission.
 
 ## Verification and Change Impact
 
+The package manifest consumes the [CoreSpice host deployment contract](../CoreSpice/DESIGN.md#responsibilities-and-boundaries) through its exact dependency closure. Changes to that contract require resolution and affected host-product verification.
+
 Existing schema/runtime tests own domain behavior. This dependency-only adoption
 requires the composing host to build affected products and verify canonical PDK
 source identity, descriptor refusal and ordinary exact dependency resolution.

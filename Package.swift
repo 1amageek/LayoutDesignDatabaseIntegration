@@ -10,7 +10,7 @@ func releasedDependency(named name: String, exactVersion: Version) -> Package.De
 
 let package = Package(
     name: "LayoutDesignDatabaseIntegration",
-    platforms: [.macOS(.v26)],
+    platforms: [.macOS("27.0")],
     products: [
         .library(
             name: "LayoutDesignDatabaseSchema",
@@ -24,9 +24,9 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/1amageek/CircuiteFoundation.git", revision: "ae88104c556f5802819713ed741f5b2fffffc2d9"),
         .package(url: "https://github.com/1amageek/DesignDatabase.git", revision: "11df4ff7d905d642b5935defb3bc1fbcfefda038"),
-        .package(url: "https://github.com/1amageek/PDKKit.git", revision: "c3491863601c16357e40e57dd2f6a7b648535c6a"),
+        .package(url: "https://github.com/1amageek/PDKKit.git", revision: "58fa393275080e0a88dc8ac9f8a95fc0c054b019"),
         .package(url: "https://github.com/1amageek/semiconductor-layout.git", revision: "17278fb7340e98a7af5a960766083c0e0c39f69b"),
-        .package(url: "https://github.com/1amageek/PDKDesignDatabaseIntegration.git", revision: "dda3066f033da2f77274d32a971668dcd35d637e"),
+        .package(url: "https://github.com/1amageek/PDKDesignDatabaseIntegration.git", revision: "01ec95d57d7d5ae782eef8f3b0dcee69b555cd4a"),
         .package(
             url: "https://github.com/1amageek/database-kit.git",
             exact: "26.0809.4"
