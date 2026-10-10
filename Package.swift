@@ -24,9 +24,9 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/1amageek/CircuiteFoundation.git", revision: "ae88104c556f5802819713ed741f5b2fffffc2d9"),
         .package(url: "https://github.com/1amageek/DesignDatabase.git", revision: "11df4ff7d905d642b5935defb3bc1fbcfefda038"),
-        .package(url: "https://github.com/1amageek/PDKKit.git", revision: "58fa393275080e0a88dc8ac9f8a95fc0c054b019"),
+        .package(url: "https://github.com/1amageek/PDKKit.git", revision: "a42d17ccc33d60e4f3b161059346e3d7f85a6bc0"),
         .package(url: "https://github.com/1amageek/semiconductor-layout.git", revision: "17278fb7340e98a7af5a960766083c0e0c39f69b"),
-        .package(url: "https://github.com/1amageek/PDKDesignDatabaseIntegration.git", revision: "01ec95d57d7d5ae782eef8f3b0dcee69b555cd4a"),
+        .package(url: "https://github.com/1amageek/PDKDesignDatabaseIntegration.git", revision: "24bae1461b61dac2542c81201cb5fa5b03281667"),
         .package(
             url: "https://github.com/1amageek/database-kit.git",
             exact: "26.0809.4"
